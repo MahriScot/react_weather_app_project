@@ -18,16 +18,19 @@
 .Weather img {
   width: 100px;
   height: 100px;
+  display: inline;
 }
+
 .Weather .temperature {
   font-weight: bold;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
+  display: inline;
 }
 
 .Weather .unit {
   position: relative;
-  top: -32px;
+  top: -22px;
   line-height: 1;
 }
