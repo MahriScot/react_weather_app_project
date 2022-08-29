@@ -1,0 +1,33 @@
+.Weather {
+  border: 1px solid lightslategrey;
+  border-radius: 4px;
+  padding: 20px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.Weather h1 {
+  padding: 20px 0;
+}
+
+.Weather li {
+  list-style: none;
+  line-height: 25px;
+}
+
+.Weather img {
+  width: 100px;
+  height: 100px;
+}
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  position: relative;
+  top: -32px;
+  line-height: 1;
+}
