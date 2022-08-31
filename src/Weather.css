@@ -10,6 +10,19 @@
   padding: 20px 0;
 }
 
+.Weather .form-control {
+  border: 1.5px solid #323653;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background: #f6e7d8;
+}
+
+.search-button {
+  border: 1.5px solid #323653;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  color: #323653;
+  background: #f6e7d8;
+}
+
 .Weather li {
   list-style: none;
   line-height: 25px;
