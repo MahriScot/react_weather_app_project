@@ -7,8 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <p>
-          <img src="images/raining.svg" alt="raining" width="60" /> There's no
-          such thing as bad weather, only bad clothing{" "}
+          <img src="images/raining.svg" alt="raining" width="60" /> "There's no
+          such thing as bad weather, only unsuitable clothing"{" "}
           <img src="images/walking.svg" alt="walking" width="60" />
         </p>
 
