@@ -1,4 +1,4 @@
-import React, { useState, CSSProperties } from "react";
+import React, { useState } from "react";
 import BeatLoader from "react-spinners/ClipLoader";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
