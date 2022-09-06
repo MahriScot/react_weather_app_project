@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, CSSProperties } from "react";
+import BeatLoader from "react-spinners/ClipLoader";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
@@ -68,9 +69,12 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return (
+      <div>
+        <h1>Loading...</h1>
+        <br />
+        <BeatLoader color="#000000" size={80} />
+      </div>
+    );
   }
 }
-
-// const apiKey = "1cea906f8f3ab268b1c4225a33a9637a";
-//

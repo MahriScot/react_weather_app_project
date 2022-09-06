@@ -38,9 +38,8 @@ export default function FormattedDate(props) {
   let year = props.date.getFullYear();
 
   return (
-    <div>
-      {day} {date} {month}, {year}
-      <br />@ {hours}:{minutes}
+    <div className="todaysDate">
+      Last Updated: {hours}:{minutes} on {day} {date} {month}, {year}
     </div>
   );
 }
